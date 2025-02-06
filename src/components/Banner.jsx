@@ -23,7 +23,7 @@ const Banner = () => {
             <div className="mt-[32px]">
               <Button
                 btncontent="Get in Touch"
-                btnDesign="bg-yellow-color text-[18px] font-bold font-nunito text-whtie-color py-[10px] px-[22px] rounded-[5px] cursor-pointer hover:bg-black hover:text-white"
+                btnDesign="bg-black-color text-[18px] font-bold font-nunito text-whtie-color py-[10px] px-[22px] rounded-[5px] cursor-pointer hover:bg-yellow-color hover:text-white"
               />
             </div>
           </div>

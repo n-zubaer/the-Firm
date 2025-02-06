@@ -126,7 +126,7 @@ const Partner = () => {
             {allIcons?.map((item) => (
               <div key={item.id} className="px-[59px] cursor-pointer ">
                 <span className=" w-[240px] h-[120px] bg-gray-color flex justify-center items-center text-[64px] rounded-md">
-                 
+                  {item.icon}
                 </span>
               </div>
             ))}

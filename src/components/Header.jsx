@@ -34,9 +34,9 @@ const Header = () => {
     <Container>
       <div className="mt-[24px] flex items-center justify-between">
         <picture>
-          <img src={Logo} alt={Logo} className="cursor-pointer"/>
+          <img src={Logo} alt={Logo} className="cursor-pointer" />
         </picture>
-        <div className="flex items-center ">    
+        <div className="flex items-center ">
           <div className={"mr-[50px]"}>
             <ul className="flex items-center gap-x-[48px]">
               {menuitem.map((item) => {
@@ -55,7 +55,7 @@ const Header = () => {
           </div>
           <Button
             btncontent="Get in Touch"
-            btnDesign="bg-yellow-color text-[18px] font-bold font-nunito text-whtie-color py-[10px] px-[22px] rounded-[5px] cursor-pointer "
+            btnDesign="bg-black-color text-[18px] font-bold font-nunito text-whtie-color py-[10px] px-[22px] rounded-[5px] cursor-pointer hover:bg-yellow-color "
           />
         </div>
       </div>
