@@ -8,6 +8,7 @@ import BlogImage2 from "../assets/Blogs2.png";
 import BlogImage3 from "../assets/Blogs3.png";
 import ProfileImage2 from "../assets/profile2.png";
 import ProfileImage3 from "../assets/profile3.png";
+import Button from "./common components/Button.jsx";
 
 const Blog = () => {
   return (
@@ -57,6 +58,14 @@ const Blog = () => {
             time={"28,Aug 2020, 09:48:00"}
           />
         </div>
+        
+        <div className="flex justify-center items-center mt-[34px]">
+          <Button
+          btncontent="View More"
+            btnDesign="bg-black-color text-[18px] font-bold font-nunito text-whtie-color py-[10px] px-[22px] rounded-[5px] cursor-pointer hover:bg-yellow-color "
+          />
+        </div>
+        
       </Container>
     </div>
   );
