@@ -25,7 +25,7 @@ const BlogCard = ({ image, heading, info, profile, profileName, time }) => {
         </div>
 
         <div>
-          <p className="text-[10px] font-normal font-nunito text-black-color">
+          <p className="text-[10px] font-normal font-nunito text-black-color pr-[21px]">
             {time}
           </p>
         </div>
